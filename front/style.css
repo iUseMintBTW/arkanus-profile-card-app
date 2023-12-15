@@ -30,7 +30,7 @@ main
     top: calc(50vh - 270px/2);
     min-width: fit-content;
     min-height: fit-content;
-    max-width: 615px;
+    max-width: 560px;
     max-height: 310px;
     padding: 28px;
 }
@@ -47,7 +47,7 @@ div#socials
     margin: auto;
     margin-top: 20px;
     display: block;
-    width: fit-content;
+    min-width: fit-content;
 }
 
 div#socials > a

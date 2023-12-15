@@ -20,12 +20,12 @@ function swapProfile ()
     else
         aggressivity++;
 
-    profile.src = `profile${aggressivity}.webp`;
+    profile.src = `../img/profile${aggressivity}.webp`;
 
     if (!isTimeoutSet)
     {
         setTimeout(() => {
-            profile.src = `profile0.webp`;
+            profile.src = `../img/profile0.webp`;
             aggressivity = 0;
             isTimeoutSet = false;
         }, 5000)
