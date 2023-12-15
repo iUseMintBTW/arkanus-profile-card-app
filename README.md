@@ -1,5 +1,6 @@
 # Profile Card
 🇵🇹:O intuito dessas cartas-perfis é ser uma central para todas as redes de cada membro da Arkanus App separado um link por membro.
+
 🇬🇧:The aim of these profile cards is to be a central hub for all the networks of each Arkanus App's member, with a separate link for each member.
 
 ## Sumario em português:
@@ -30,7 +31,9 @@ Probavelmente todo navegador bem atualisado pode acessar o meu normalmente atrav
 - Toque em "Download zip";
 - Descompacte o arquivo com o aplicativo de preferencia. ```ex: winrar, 7zip```;
 - Execute o arquvio "index.html" com seu navegador ou cole seu caminho na barra de URL;
- <br> <br>(obs: alterar a organisação da pasta pode alterar seu funcionamento)
+
+
+(obs: alterar a organisação da pasta pode alterar seu funcionamento)
 
 ### Pelo bash
 - Digite o comando abaixo para clonar o repositório;
@@ -70,7 +73,8 @@ Probaly any updated browser can acess by ![that link](an.arkanus.app)
 - Touch "Download zip";
 - Decompress with your favorite app ```ex: winrar, 7zip```;
 - Run the file "index.html" with your browser or paste its path in the URL bar;
- <br> <br>(obs: tempering the organisation of the folder can alter its behavor)
+
+(obs: tempering the organisation of the folder can alter its behavor)
 
 ### By bash
 - Run the command below to clone the repository;
@@ -91,7 +95,7 @@ ex: ```firefox index.html```
 - ![@iUseMintBTW](an.arkanus.app) - Planing, README, creative decisions and major writing of the code.
 - ![@thaynansilva ](https://github.com/thaynansilva) - Coaching, consulting and correction;
 
-### Licença
+### License
 This project was made under the ![GNU General Public License 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ### Final thoughts
