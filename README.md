@@ -4,4 +4,4 @@
 
 ## -> 🇵🇹: Isso é apenas uma simples 'app' de carta-perfil para mim para arkanus.app
 
-## -> 🇨🇳:flag_cn:: zheshi yige profile card app dui arkanus.app
+## -> 🇨🇳: zheshi yige profile card app dui arkanus.app
