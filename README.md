@@ -63,7 +63,7 @@ Este projeto foi feito sob a licença ![GNU General Public License 3.0](https://
 
 ---
 
-## How to acesss
+## How to acess
 Probaly any updated browser can acess by [that link](https://an.arkanus.app)
 
 ## In case you want to run directely in your machine or temper with it
