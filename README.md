@@ -22,7 +22,7 @@
 ### 5. [Final thoughts](#final-thoughts)
 
 ## Como acessar
-Probavelmente todo navegador bem atualisado pode acessar o meu normalmente através ![deste link](https://an.arkanus.app)
+Probavelmente todo navegador bem atualisado pode acessar o meu normalmente através [deste link](https://an.arkanus.app)
 
 ## Caso queira rodar direto em sua máquina ou fazer alterações
 ### Pela interface
@@ -64,7 +64,7 @@ Este projeto foi feito sob a licença ![GNU General Public License 3.0](https://
 ---
 
 ## How to acesss
-Probaly any updated browser can acess by ![that link](https://an.arkanus.app)
+Probaly any updated browser can acess by [that link](https://an.arkanus.app)
 
 ## In case you want to run directely in your machine or temper with it
 ### By the interface
