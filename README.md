@@ -58,6 +58,7 @@ ex: ```firefox index.html```
 Este projeto foi feito sob a licença ![GNU General Public License 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ### Considerações finais
+#### Há ao menos dois Easter Eggs.
 #### E-mail para suporte: an@arkanus.app
 #### Meu linkedin: à-ser-anunciado.
 
@@ -99,5 +100,6 @@ ex: ```firefox index.html```
 This project was made under the ![GNU General Public License 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ### Final thoughts
+#### There is at least two Easter Eggs.
 #### E-mail for support: an@arkanus.app
 #### My linkedin: to-be-announced.

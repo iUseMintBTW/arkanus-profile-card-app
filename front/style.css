@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Silkscreen&display=swap');
+
+*{user-select: none;}
 
 body
 {
@@ -7,12 +10,7 @@ body
     margin: 0;
 }
 
-h1, h5
-{
-    margin: 10px 10px;
-}
-
-div#global
+div.fill
 {
     display: block;
     width: 100vw;
@@ -21,14 +19,20 @@ div#global
     padding: 0;
 }
 
+h1, h5
+{
+    margin: 10px;
+    text-align: center;
+}
+
 main
 {
     background-color: #1B4242;
     display: flex;
     margin: auto;
     position: relative;
-    top: calc(50vh - 270px/2);
-    min-width: fit-content;
+    top: calc(50vh - 270px / 2);
+    min-width: max-content;
     min-height: fit-content;
     max-width: 560px;
     max-height: 310px;
@@ -42,28 +46,22 @@ main > div
     margin: auto;
 }
 
-div#socials
+.socials
 {
-    margin: auto;
     margin-top: 20px;
     display: block;
     min-width: fit-content;
 }
 
-div#socials > a
+.socials > div
 {
     margin: auto;
+    display: block;
+    padding: 4px;
+    text-align: center;
 }
 
-img#profile
-{
-    display: flex;
-    border: 2px solid #0008;
-    height: 250px;
-    width: 250px;
-}
-
-a
+a.button
 {
     color: black; background-color: #5C8374;
     text-decoration: none;
@@ -71,55 +69,125 @@ a
     border: 2px solid black;
     height: min-content;
     width: fit-content;
-    display: inline-block;
-    margin: 4px;
-    padding: 4px;
+    padding: 4px 8px;
 }
 
-a img.icon
+a.button img
 {
+    margin: auto;
+    display: block;
     width: 16px;
     height: 16px;
-    margin: auto;
-    display: flex;
 }
 
-a span
+a.coming-soon
 {
-    display: inline-block;
+    filter: blur(3px);
+}
+
+a.arkanus
+{
+    background-color: #222B89;
+    color: white;
+    position: relative;
+    border-radius: 8px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-weight: bold;
+    border: 2px solid #fff7;
+    display: block;
+    top: 8px;
+    width: 345px;
+    text-decoration: none;
+}
+
+a.arkanus span
+{
+    margin: auto 10px auto;
+    font-size: 23pt;
+}
+
+a.arkanus img
+{
+    margin: 0;
+    width: 64px;
+    height: 64px;
+}
+
+a.arkanus div
+{
+    margin: auto;
+    display: flex;
+    width: fit-content;
+}
+
+span.carimbo
+{
+    position: absolute;
+    background-color: rgba(255, 255, 225, 0.5);
+    color: black;
+    top: 47%;
+    left: 38%;
+    transform: rotate(-19deg);
+    z-index: 1;
+}
+
+#profile
+{
+    display: flex;
+    border: 2px solid #0008;
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
 }
 
 bubble
 {
+    user-select: none;
     color: yellowgreen;
-    position: relative;
+    position: absolute;
     background-color: #092330;
     border-radius: 10px; font-size: 8pt;
     border: 2px solid #ccc;
     padding: 6px 6px 6px 6px;
     width: 50px; text-align: center;
-    top: 8px; left: calc(50% - 30px);
+    top: calc(33% - 15px);
+    left: calc(15% - 30px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     display: block;
     opacity: 0;
     transition: opacity 0.3s ease;
-    font-size: 16pt;
+    font-size: 15pt;
 }
 
 @media (max-width: 600px) {
-    div#global > main > div
+    main > div
     {
         display: block;
     }
     
-    div#global > main
+    main
     {
         top: 0;
+        max-height: 400px;
+    }
+
+    span.carimbo
+    {
+        top: 32%;
+        left: 61%;
     }
     
-    img#profile
+    #profile
     {
         display: flex;
         margin: auto;
+    }
+}
+
+@media (max-width: 450px)
+{
+    main
+    {
+        max-width: none;
     }
 }

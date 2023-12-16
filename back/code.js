@@ -6,26 +6,27 @@ let isTimeoutSet = false;
 
 function clipboard ()
 {
-    navigator.clipboard.writeText(tag)
-    bubble.style.opacity = 1
+    navigator.clipboard.writeText(tag);
+    
+    bubble.style.opacity = 1;
     setTimeout(() => {
         bubble.style.opacity = 0;
     }, 1000);
 }
 
-function swapProfile ()
+function easterEgg ()
 {
     if (aggressivity + 1 > 3)
         aggressivity = 0;
     else
         aggressivity++;
 
-    profile.src = `../img/profile${aggressivity}.webp`;
+    profile.src = `img/profile${aggressivity}.webp`;
 
     if (!isTimeoutSet)
     {
         setTimeout(() => {
-            profile.src = `../img/profile0.webp`;
+            profile.src = `img/profile0.webp`;
             aggressivity = 0;
             isTimeoutSet = false;
         }, 5000)
