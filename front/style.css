@@ -82,7 +82,7 @@ a.button img
 
 a.coming-soon
 {
-    filter: blur(3px);
+    filter: blur(2px);
 }
 
 a.arkanus
@@ -168,19 +168,21 @@ bubble
     main
     {
         top: 0;
-        max-height: 400px;
+        max-height: 388px;
+        min-width: fit-content;
     }
 
     span.carimbo
     {
-        top: 32%;
-        left: 61%;
+        top: 43%;
+        left: 32%;
     }
     
     #profile
     {
         display: flex;
         margin: auto;
+        margin-top: 12px;
     }
 }
 
