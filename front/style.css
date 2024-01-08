@@ -10,19 +10,16 @@ body
     margin: 0;
 }
 
-div.fill
-{
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-
-h1, h5
+h4
 {
     margin: 10px;
     text-align: center;
+}
+
+#check, #html
+{
+    height: 14pt; width: 14pt;
+    vertical-align: middle
 }
 
 main
@@ -31,11 +28,11 @@ main
     display: flex;
     margin: auto;
     position: relative;
-    top: calc(50vh - 270px / 2);
+    top: calc(50vh - 270px);
     min-width: max-content;
     min-height: fit-content;
-    max-width: 560px;
-    max-height: 310px;
+    max-width: 280px;
+    max-height: 560px;
     padding: 28px;
 }
 
@@ -68,7 +65,8 @@ a.button
     display: inline-block;
     border: 2px solid black;
     height: min-content;
-    width: fit-content;
+    min-width: fit-content;
+    width: 135px;
     padding: 4px 8px;
 }
 
@@ -96,7 +94,7 @@ a.arkanus
     border: 2px solid #fff7;
     display: block;
     top: 8px;
-    width: 345px;
+    width: 300px;
     text-decoration: none;
 }
 
@@ -125,8 +123,8 @@ span.carimbo
     position: absolute;
     background-color: rgba(255, 255, 225, 0.5);
     color: black;
-    top: 47%;
-    left: 38%;
+    top: 69%;
+    left: 31%;
     transform: rotate(-19deg);
     z-index: 1;
 }
@@ -134,10 +132,11 @@ span.carimbo
 #profile
 {
     display: flex;
+    margin: auto;
     border: 2px solid #0008;
-    height: 250px;
-    width: 250px;
-    margin-left: 10px;
+    height: 120px;
+    width: 120px;
+    border-radius: 3%;
 }
 
 bubble
@@ -150,46 +149,17 @@ bubble
     border: 2px solid #ccc;
     padding: 6px 6px 6px 6px;
     width: 50px; text-align: center;
-    top: calc(33% - 15px);
-    left: calc(15% - 30px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     display: block;
     opacity: 0;
     transition: opacity 0.3s ease;
     font-size: 15pt;
+    top: 46%;
 }
 
-@media (max-width: 600px) {
-    main > div
-    {
-        display: block;
-    }
-    
-    main
-    {
-        top: 0;
-        max-height: 388px;
-        min-width: fit-content;
-    }
-
-    span.carimbo
-    {
-        top: 43%;
-        left: 32%;
-    }
-    
-    #profile
-    {
-        display: flex;
-        margin: auto;
-        margin-top: 12px;
-    }
-}
-
-@media (max-width: 450px)
+fieldset
 {
-    main
-    {
-        max-width: none;
-    }
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 579px;
 }

@@ -1,7 +1,7 @@
 const tag = "brasino"
 let profile = document.getElementById("profile")
 let bubble = document.getElementById("bubble")
-let aggressivity = 0;
+let aggressiveness = 0;
 let isTimeoutSet = false;
 
 function clipboard ()
@@ -16,18 +16,18 @@ function clipboard ()
 
 function easterEgg ()
 {
-    if (aggressivity + 1 > 3)
-        aggressivity = 0;
+    if (aggressiveness + 1 > 3)
+        aggressiveness = 0;
     else
-        aggressivity++;
+        aggressiveness++;
 
-    profile.src = `img/profile${aggressivity}.webp`;
+    profile.src = `img/profile${aggressiveness}.webp`;
 
     if (!isTimeoutSet)
     {
         setTimeout(() => {
             profile.src = `img/profile0.webp`;
-            aggressivity = 0;
+            aggressiveness = 0;
             isTimeoutSet = false;
         }, 5000)
 
